@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* a {
+  text-decoration: none;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+.container-global {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  border-radius: 4px;
+  background-color: #16181C;
+}
+.container-global .container {
+  width: 86%;
+  height: 86%;
+}
+.container-global .container .cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.container-global .container .cards h2 {
+  font: 500 1.8rem "Manrope", sans-serif;
+  text-align: center;
+  line-height: 34px;
+  padding: 2.4rem 7.6rem 1.6rem 7.6rem;
+  color: #484F5C;
+}
+.container-global .container .cards h2 span {
+  font-weight: 900;
+}
+.container-global .container .cards h1 {
+  font: 800 2.8rem "Manrope", sans-serif;
+  color: #8B44FF;
+  padding-bottom: 3.2rem;
+}
+.container-global .container .cards .button {
+  font: 600 1.6rem "Manrope", sans-serif;
+  height: 4.4rem;
+  width: 86%;
+  margin-bottom: 3.6rem;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  background: #16181C;
+  transition: background 200ms;
+}
+.container-global .container .cards .button:hover {
+  background: #484F5C;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=main.css.map */
