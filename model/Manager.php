@@ -2,10 +2,10 @@
 
 class Manager extends Connect
 {
-  public function getName($table)
+  public function getName()
   {
     $pdo = parent::get_instance();
-    $sql = "SELECT * FROM $table name";
+    $sql = "SELECT * FROM responsible name";
     $statement = $pdo->query($sql);
     $statement->execute();
 
@@ -14,7 +14,10 @@ class Manager extends Connect
 
   public function updateName()
   {
-    $pdo = parent::get_instance();
+    // $pdo = parent::get_instance();
+
+    $this->getName();
+
 
 
     // $sql = "UPDATE responsible SET name='Cintia' WHERE name='João'";
